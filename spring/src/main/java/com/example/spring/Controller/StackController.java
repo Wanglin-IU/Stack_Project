@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 import java.util.List;
 
-@RestController
+@RestController //代表返回的是json格式的数据
 @RequestMapping("/")
 //注入多个接口
 public class StackController {
